@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#cb00b4ff</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhat">#FFFFFF</color>
+    <color name="colorhui">#11c1c1c1</color>
+    <color name="colortran">#f5ffffff</color>
+    <color name="colorMainHui">#ececec</color>
+    <color name="coloBGNormal">#3c3f49</color>
+    <color name="colorNormal">#abbbbb</color>
+    <color name="colorLight_blue_X">#6875ff</color>
+    <color name="colorLight_blue_D">#006875ff</color>
+    <color name="colorLoin_hui_D">#9be9e9e9</color>
+    <color name="colorLoin_hui_O">#dcdcdc</color>
+
+</resources>

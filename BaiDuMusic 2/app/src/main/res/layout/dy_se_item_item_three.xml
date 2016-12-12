@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dy_se_item_heard"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_classify_img07"/>
+
+        <TextView
+            android:id="@+id/de_se_item_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_ten"
+            android:layout_toRightOf="@id/dy_se_item_heard"
+            android:text="你试一哈阿克苏接电话卡"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/main_ten"
+            android:layout_toLeftOf="@+id/image"
+            android:background="@android:color/holo_blue_light"
+            android:paddingLeft="@dimen/mian_five_top"
+            android:paddingRight="@dimen/mian_five_top"
+            android:text="推荐"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/btn_follow_normal"/>
+
+        <TextView
+            android:id="@+id/de_se_item_title_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/de_se_item_title_name"
+            android:layout_marginLeft="@dimen/main_ten"
+            android:layout_toRightOf="@id/dy_se_item_heard"
+            android:text="你试一哈阿克苏接电话卡"
+            android:textSize="@dimen/main_ten"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/se_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_ten"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3dp"
+        android:lineSpacingMultiplier="1.1"
+        android:maxLines="5"
+        android:text=" 沃尔特Yui欧可能不v 是电风扇的放阿飞案说法让我让位沃尔特Yui欧可能不v 是电风扇的放阿飞案说法让我让位沃尔特Yui欧可能不v 是电风扇的放阿飞案说法让我让位"
+        android:textColor="@color/coloBGNormal"/>
+
+    <TextView
+        android:id="@+id/dy_se_item_topic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_ten"
+        android:layout_marginTop="@dimen/main_ten"
+        android:background="@drawable/dy_shape"
+        android:paddingBottom="@dimen/cardview_default_radius"
+        android:paddingLeft="@dimen/mian_five_top"
+        android:paddingRight="@dimen/mian_five_top"
+        android:textColor="#3c4c96"
+        android:textSize="@dimen/main_title_S_margX"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/dy_item_one_pic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/eeeeeee"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dy_item_tow_p_pic"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/main_title_margS"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/eeeeeee"/>
+
+            <ImageView
+                android:id="@+id/dy_item_three_p_pic"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/main_title_margS"
+                android:layout_marginTop="@dimen/main_title_margS"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/eeeeeee"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_six_five"
+        android:layout_marginTop="@dimen/main_ten">
+
+        <ImageView
+            android:id="@+id/dy_item_se_se_pi_x"
+            android:layout_width="@dimen/all_six_five"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/dy_item_se_se_pi_Y"
+            android:layout_width="@dimen/all_six_five"
+            android:layout_height="match_parent"
+            android:background="#22000000"
+            android:padding="@dimen/main_ten"
+            android:src="@mipmap/bt_play_nor"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/dy_item_se_se_pi_Y"
+            android:background="#f4f4f4"
+            android:orientation="vertical"
+            android:padding="@dimen/main_title_image_padding">
+
+            <TextView
+                android:id="@+id/dy_se_item_music_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/main_ten"
+                android:textColor="@color/coloBGNormal"/>
+
+            <TextView
+                android:id="@+id/dy_se_item_music_title_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/main_ten"
+                android:textSize="@dimen/main_ten"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

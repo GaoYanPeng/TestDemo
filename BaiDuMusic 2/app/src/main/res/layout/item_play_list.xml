@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="@dimen/main_title_margS">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lit_play_item">
+
+        <ImageView
+            android:id="@+id/item_list_pic"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+     />
+
+        <ImageView
+            android:layout_width="@dimen/list_play"
+            android:layout_height="@dimen/list_play"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/main_ten"
+            android:layout_marginRight="@dimen/main_ten"
+            android:background="@mipmap/bt_play_nor"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/main_ten"
+            android:layout_marginLeft="@dimen/main_ten"
+            android:src="@mipmap/eeeeeee"/>
+
+        <TextView
+            android:id="@+id/play_lis_item_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/main_title_margM"
+            android:layout_marginLeft="@dimen/main_title_margM"
+            android:layout_toRightOf="@+id/image"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/main_title_S_margX"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/play_lis_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/main_ten_S"/>
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/main_title_margX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by"
+            android:textSize="@dimen/main_ten_S"/>
+
+        <TextView
+            android:id="@+id/play_lis_item_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/main_title_image_padding"
+            android:textSize="@dimen/main_ten_S"/>
+
+    </LinearLayout>
+
+</LinearLayout>

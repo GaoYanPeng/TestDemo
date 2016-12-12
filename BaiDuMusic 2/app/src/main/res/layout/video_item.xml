@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:padding="@dimen/main_title_margS">
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="7dp"
+        app:cardCornerRadius="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lit_video_item">
+            <ImageView
+                android:id="@+id/item_video_pic"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:scaleType="fitXY"
+               />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_marginTop="@dimen/main_title_image_padding"
+        android:id="@+id/video_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/main_title_S_margX"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_title_image_padding"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/video_item_video_item_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/main_title_image_padding"
+            android:textSize="@dimen/main_ten_S"/>
+
+    </LinearLayout>
+</LinearLayout>

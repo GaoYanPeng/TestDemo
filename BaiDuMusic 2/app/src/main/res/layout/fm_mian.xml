@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@mipmap/title">
+
+            <ImageView
+                android:id="@+id/mian_loing"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:padding="@dimen/main_title_pic"
+                android:src="@mipmap/bt_sceneplay_singer"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/mian_loing_text"
+                android:layout_toRightOf="@id/mian_loing"
+                android:text="@string/mian_text_one"
+                android:textColor="@color/colorwhat"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/mian_loing_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/mian_loing"
+                android:text="@string/mian_head_text_tow"
+                android:textColor="@color/colorwhat"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical"
+                android:padding="@dimen/main_title_pic">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_mymusic_try_normal"/>
+
+                <TextView
+                    android:id="@+id/saslkdfjh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="随便听听"
+                    android:textColor="@color/colorwhat"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/mian_first_include"
+            layout="@layout/mian_first_item"/>
+        <include layout="@layout/mian_second_item"/>
+        <include layout="@layout/mian_third_item"/>
+        <include layout="@layout/mian_four_item"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

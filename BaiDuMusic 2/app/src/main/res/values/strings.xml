@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BaiDuMusic</string>
+    <string name="mian_head_text_tow">收藏的歌曲永不丢失</string>
+    <string name="mian_text_one">立即登录</string>
+    <string name="mian_item_four_playlist">自建歌单</string>
+    <string name="main_item_four_new">新建</string>
+    <string name="mian_item_four_like">我喜欢的歌单</string>
+    <string name="_0">0</string>
+    <string name="mian_item_four_home">首</string>
+    <string name="mian_item_four_start">最近播放</string>
+    <string name="gong">共</string>
+    <string name="_1">1</string>
+    <string name="mian_sec_item_home">首 ,</string>
+    <string name="mian_sec_one">1</string>
+    <string name="mian_sec_offline">首离线可播</string>
+    <string name="first_music">本地音乐</string>
+    <string name="mian_third_item_my">我的下载</string>
+    <string name="list_text">全部</string>
+    <string name="music_play_list_new">最新</string>
+    <string name="music_play_list_host">最热</string>
+    <string name="lin">-</string>
+    <string name="my_message">我的消息</string>
+    <string name="vip">成为白金 VIP</string>
+    <string name="setting">设置</string>
+    <string name="auto_close">定时关闭</string>
+    <string name="setting_pc_sync">电脑倒歌</string>
+    <string name="action_zone">活动专区</string>
+    <string name="app_recommend">精品应用</string>
+    <string name="loin_phone">手机号/用户名/邮箱</string>
+    <string name="close_loin">退出登录</string>
+</resources>

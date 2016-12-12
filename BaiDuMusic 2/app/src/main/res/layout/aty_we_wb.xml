@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#312525">
+
+        <ImageView
+            android:id="@+id/wb_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/main_ten"
+            android:src="@mipmap/bt_return_nor"/>
+
+        <TextView
+            android:id="@+id/bai_du"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/wb_close"
+            android:text="百度音乐"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_vertical_margin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/main_ten"
+            android:text="刷新"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_vertical_margin"/>
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/we_wb_url"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

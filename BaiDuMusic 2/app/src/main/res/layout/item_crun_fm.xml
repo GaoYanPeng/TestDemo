@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@android:color/white"
+              android:paddingTop="@dimen/dp_6"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginBottom="@dimen/dp_6"
+        android:layout_marginLeft="@dimen/main_title_margX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@mipmap/ic_classify_img07"
+            android:id="@+id/cr_image_heard"
+            android:scaleType="fitXY"
+            android:layout_width="65dp"
+            android:layout_height="60dp"/>
+        <ImageView
+            android:id="@+id/crun_image_on"
+            android:src="@mipmap/img_king_mask1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"/>
+        <TextView
+            android:id="@+id/crun_number_tv"
+            android:layout_marginLeft="@dimen/cardview_default_radius"
+            android:textColor="@android:color/white"
+            android:text="01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/main_ten"
+        android:layout_marginRight="@dimen/dp_22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="@color/coloBGNormal"
+            android:textSize="@dimen/sp_14"
+            android:id="@+id/cn_it_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_below="@id/cn_it_song_name"
+            android:id="@+id/cn_it_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/crun_item_smaple"
+            android:padding="@dimen/dp_10"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/bt_recsong_more_press"
+            android:layout_width="@dimen/item_crun_fm_seven"
+            android:layout_height="@dimen/item_crun_fm_seven"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

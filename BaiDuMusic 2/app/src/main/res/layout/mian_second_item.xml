@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingRight="@dimen/main_ten"
+                android:orientation="vertical"
+                >
+
+    <ImageView
+        android:padding="@dimen/main_ten"
+
+        android:id="@+id/mian_fm_first_item"
+        android:layout_width="@dimen/mian_item_title_image_width"
+        android:layout_height="@dimen/mian_item_title_image_width"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_mymusic_play_normal"/>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/mian_fm_first_item">
+
+        <TextView
+            android:textColor="@android:color/black"
+           android:paddingTop="@dimen/main_title_margL"
+           android:paddingBottom="@dimen/main_title_margL"
+            android:id="@+id/local_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/mian_item_four_start"/>
+
+        <TextView
+            android:id="@+id/se_text_one"
+            android:paddingTop="@dimen/main_title_margL"
+            android:paddingBottom="@dimen/main_title_margL"
+            android:layout_toRightOf="@id/local_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/gong"/>
+
+        <TextView
+           android:id="@+id/se_text_tow"
+            android:paddingTop="@dimen/main_title_margL"
+            android:paddingBottom="@dimen/main_title_margL"
+            android:layout_toRightOf="@id/se_text_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/_1"/>
+        <TextView
+            android:id="@+id/se_text_three"
+            android:paddingTop="@dimen/main_title_margL"
+            android:paddingBottom="@dimen/main_title_margL"
+            android:layout_toRightOf="@id/se_text_tow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/mian_sec_item_home"/>
+        <TextView
+            android:id="@+id/se_text_four"
+            android:paddingTop="@dimen/main_title_margL"
+            android:paddingBottom="@dimen/main_title_margL"
+            android:layout_toRightOf="@id/se_text_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/mian_sec_one"/>
+        <TextView
+
+            android:paddingTop="@dimen/main_title_margL"
+            android:paddingBottom="@dimen/main_title_margL"
+            android:layout_toRightOf="@id/se_text_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/mian_sec_offline"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_songlist_detail_nor"/>
+
+        <TextView
+            android:background="@color/colorMainHui"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

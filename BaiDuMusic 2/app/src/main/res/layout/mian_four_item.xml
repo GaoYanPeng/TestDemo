@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="125dp"
+              android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/main_title_margL"
+            android:text="@string/mian_item_four_playlist"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/main_title_margL"
+            android:text="@string/main_item_four_new"
+
+            />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/main_title_margL"
+            android:paddingRight="@dimen/main_title_margL"
+            android:src="@mipmap/ic_mymusic_like"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+
+                android:id="@+id/four_item_lick"
+                android:text="@string/mian_item_four_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="15sp"
+                android:id="@+id/item_text"
+                android:layout_below="@+id/four_item_lick"
+                android:text="@string/_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="15sp"
+                android:layout_toRightOf="@+id/item_text"
+                android:layout_below="@+id/four_item_lick"
+                android:text="@string/mian_item_four_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_marginRight="@dimen/main_ten"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_songlist_detail_nor"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorMainHui"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.0'
+    defaultConfig {
+        applicationId "com.gaoyanpeng.baidumusic"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+//经测试如果想以这种方式实现高斯模糊的效果，那么 minSdkVersion 最低为 17 ，不然运行的时候会报错。
+    defaultConfig {
+        applicationId "com.xxxx.xxxx"
+        minSdkVersion 17
+        targetSdkVersion 22
+//      以下是高斯模糊相关的API
+        renderscriptTargetApi 22
+        renderscriptSupportModeEnabled true
+    }
+}
+
+repositories{
+    flatDir { dirs 'libs'   }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'org.jetbrains:annotations-java5:15.0'
+    compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.youth.banner:banner:1.4.4'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile project(':musicview')
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:cardview-v7:24.0.0'
+    compile 'me.yokeyword:fragmentation:0.8.2'
+    compile 'me.yokeyword:fragmentation-swipeback:0.7.9'
+    compile 'com.github.jdsjlzx:LRecyclerView:1.2.8'
+    compile(name: 'library-release', ext: 'aar')
+    compile files('libs/MobTools-2016.1107.1809.jar')
+    compile 'org.greenrobot:eventbus:3.0.0'
+}

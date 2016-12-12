@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fafafa"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="百度账号登入"
+            android:textColor="@color/coloBGNormal"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_songlist_detail_nor"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:background="@color/colorLoin_hui_O"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_18"
+        android:paddingRight="@dimen/dp_18">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_36">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/loin_title"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/dp_18"
+            android:background="@drawable/loin_shape_aty"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ed_phone_name"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/draw_F"
+                android:layout_marginLeft="@dimen/dp_18"
+                android:background="@null"
+                android:hint="@string/loin_phone"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:background="@color/colorLoin_hui_O"/>
+
+            <EditText
+                android:id="@+id/ed_presswored"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/draw_F"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/dp_18"
+                android:background="@null"
+                android:hint="密码"/>
+
+        </RelativeLayout>
+        <!--app:cardElevation="7dp"-->
+        <!--app:cardCornerRadius="3dp"-->
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/draw_F"
+            android:layout_marginTop="@dimen/dp_22"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/loin_aty_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/loin_tv"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="#81ffffff"/>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dp_22"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/qq_share"
+                android:src="@drawable/qq_pressed"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/webo_share"
+                android:src="@mipmap/bt_share_sinaweibo_press"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/aty_tv_loin"
+            android:textSize="18sp"
+            android:textColor="#367cff"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="88dp"
+            android:text="立即注册"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

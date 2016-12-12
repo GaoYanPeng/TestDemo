@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/main_ten">
+    <RelativeLayout
+        android:id="@+id/mian_first_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+
+            android:id="@+id/mian_fm_first_item"
+            android:layout_width="@dimen/mian_item_title_image_width"
+            android:layout_height="@dimen/mian_item_title_image_width"
+
+            android:layout_centerVertical="true"
+            android:padding="@dimen/main_ten"
+            android:src="@mipmap/ic_mymusic_local_normal"/>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/mian_fm_first_item"
+            >
+
+            <TextView
+                android:id="@+id/local_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/main_title_margL"
+                android:paddingTop="@dimen/main_title_margL"
+                android:text="@string/first_music"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/mian_first_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/main_title_margL"
+                android:layout_toRightOf="@id/local_music"
+                android:paddingBottom="@dimen/main_title_margL"
+                android:paddingTop="@dimen/main_title_margL"
+                android:text="5首"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@mipmap/ic_songlist_play"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorMainHui"/>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_title_image_padding">7dp</dimen>
+    <dimen name="main_title_margL">20dp</dimen>
+    <dimen name="small_text">10sp</dimen>
+    <dimen name="main_eight_top">8dp</dimen>
+    <dimen name="mian_five_top">5dp</dimen>
+    <dimen name="main_ten">10dp</dimen>
+    <dimen name="main_title_pic">15dp</dimen>
+    <dimen name="mian_item_title_image_width">50dp</dimen>
+    <dimen name="mian_item_title_image_height">50dp</dimen>
+    <dimen name="mian_item_title_image_heightX">42dp</dimen>
+
+    <dimen name="music_item_lieth">25dp</dimen>
+    <dimen name="main_title_margX">12dp</dimen>
+    <dimen name="main_title_margD">15dp</dimen>
+    <dimen name="main_title_margM">7dp</dimen>
+    <dimen name="main_title_margS">4dp</dimen>
+
+    <dimen name="music_item_S_lieth">25sp</dimen>
+    <dimen name="main_title_S_margX">12sp</dimen>
+    <dimen name="main_title_S_margD">15sp</dimen>
+    <dimen name="main_title_S_margM">7sp</dimen>
+    <dimen name="main_title_S_margS">4sp</dimen>
+    <dimen name="main_title_S_marg_pop">20sp</dimen>
+    <dimen name="main_ten_S">9sp</dimen>
+    <dimen name="list_play">27dp</dimen>
+    <dimen name="list_play_X">35dp</dimen>
+    <dimen name="lit_play_item">154dp</dimen>
+    <dimen name="lit_video_item">114dp</dimen>
+    <dimen name="item_crun_image_O">100dp</dimen>
+    <dimen name="dy_item_w">145dp</dimen>
+    <dimen name="dy_item_h">70dp</dimen>
+    <dimen name="all_six_five">45dp</dimen>
+    <dimen name="image_four">130dp</dimen>
+    <dimen name="image_six">110dp</dimen>
+    <dimen name="oneH">100dp</dimen>
+    <dimen name="item_crun_fm_seven">50dp</dimen>
+    <dimen name="draw_F">50dp</dimen>
+    <dimen name="main_pop_five">45dp</dimen>
+</resources>

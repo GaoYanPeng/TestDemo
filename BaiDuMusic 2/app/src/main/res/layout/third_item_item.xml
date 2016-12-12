@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/main_title_margM"
+                android:paddingTop="@dimen/main_title_margM">
+
+    <ImageView
+        android:id="@+id/third_item_item_pic"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_mymusic_like"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/main_title_pic"
+        android:layout_toRightOf="@+id/third_item_item_pic">
+
+        <RelativeLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_ten">
+
+            <TextView
+                android:maxEms="15"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:id="@+id/third_item_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="阿里里虽然很垃圾时发布腊八饭"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/main_title_margX"/>
+
+            <TextView
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:maxEms="16"
+                android:id="@+id/third_item_item_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/third_item_item_title"
+                android:text="阿里里虽然很垃圾时发布腊八饭"
+                android:textSize="@dimen/main_title_margX"/>
+
+            <ImageView
+
+                android:id="@+id/third_item_item_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_songlist_detail_nor"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/main_ten"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e2e2e2"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

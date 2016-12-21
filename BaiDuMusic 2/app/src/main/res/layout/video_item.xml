@@ -7,8 +7,8 @@
               android:padding="@dimen/main_title_margS">
 
     <android.support.v7.widget.CardView
-        app:cardElevation="7dp"
-        app:cardCornerRadius="3dp"
+        app:cardElevation="@dimen/diman_7dp"
+        app:cardCornerRadius="@dimen/diman_3dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <RelativeLayout
@@ -17,7 +17,7 @@
             <ImageView
                 android:id="@+id/item_video_pic"
                 android:layout_width="match_parent"
-                android:layout_height="114dp"
+                android:layout_height="@dimen/lit_video_item"
                 android:scaleType="fitXY"
                />
         </RelativeLayout>

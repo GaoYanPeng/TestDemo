@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/k_song_reyl"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
 
-</LinearLayout>
+     <ImageView
+         android:src="@mipmap/ksong_pic_one"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/dimen_450dp"/>
+     <ImageView
+         android:layout_marginBottom="@dimen/dp_22"
+         android:src="@mipmap/ksong_pic_tow"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/dimen_400dp"/>
+ </LinearLayout>
+
+</ScrollView>

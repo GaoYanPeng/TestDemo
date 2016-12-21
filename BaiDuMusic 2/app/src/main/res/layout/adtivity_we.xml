@@ -4,9 +4,6 @@
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
                 android:orientation="vertical">
-
-
-
     <RelativeLayout
         android:id="@+id/branang_We"
         android:layout_width="match_parent"
@@ -28,14 +25,14 @@
 
     <TextView
         android:id="@+id/we_tv_intent"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp"
         android:layout_alignParentRight="true"
         android:layout_marginRight="@dimen/main_title_margL"
         android:layout_marginTop="@dimen/list_play"
         android:background="@drawable/we_shape"
         android:gravity="center"
-        android:text="跳转"
+        android:text="@string/str_tv_tiao"
         android:textColor="@android:color/white"
-        android:textSize="@dimen/main_title_margL"/>
+        android:textSize="@dimen/dimen_20sp"/>
 </RelativeLayout>

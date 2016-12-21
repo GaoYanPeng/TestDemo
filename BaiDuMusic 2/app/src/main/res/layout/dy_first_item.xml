@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="280dp">
+              android:layout_height="@dimen/dimen_280dp">
     <ImageView
         android:scaleType="fitXY"
         android:src="@mipmap/trends_guide_img"
         android:layout_width="match_parent"
-        android:layout_height="150dp"/>
+        android:layout_height="@dimen/dimen_150dp"/>
     <RelativeLayout
         android:paddingLeft="@dimen/main_ten"
         android:paddingRight="@dimen/main_ten"
@@ -18,7 +18,7 @@
         <TextView
             android:textColor="@color/coloBGNormal"
             android:layout_centerVertical="true"
-            android:text="热门话题"
+            android:text="@string/str_tv_host"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <TextView
@@ -26,7 +26,7 @@
             android:textSize="@dimen/small_text"
             android:layout_centerVertical="true"
             android:layout_toLeftOf="@+id/image"
-            android:text="更多"
+            android:text="@string/str_tv_duo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <ImageView

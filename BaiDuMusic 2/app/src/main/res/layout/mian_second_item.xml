@@ -8,7 +8,6 @@
 
     <ImageView
         android:padding="@dimen/main_ten"
-
         android:id="@+id/mian_fm_first_item"
         android:layout_width="@dimen/mian_item_title_image_width"
         android:layout_height="@dimen/mian_item_title_image_width"
@@ -16,7 +15,6 @@
         android:src="@mipmap/ic_mymusic_play_normal"/>
 
     <RelativeLayout
-
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_toRightOf="@+id/mian_fm_first_item">

@@ -6,13 +6,13 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/dimen_50dp"
         android:background="#312525">
 
         <ImageView
             android:id="@+id/wb_close"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
             android:layout_centerVertical="true"
             android:padding="@dimen/main_ten"
             android:src="@mipmap/bt_return_nor"/>
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/wb_close"
-            android:text="百度音乐"
+            android:text="@string/str_tv_baidu"
             android:textColor="@android:color/white"
             android:textSize="@dimen/activity_vertical_margin"/>
 
@@ -33,7 +33,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:padding="@dimen/main_ten"
-            android:text="刷新"
+            android:text="@string/str_tv_shua"
             android:textColor="@android:color/white"
             android:textSize="@dimen/activity_vertical_margin"/>
 

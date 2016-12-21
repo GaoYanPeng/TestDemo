@@ -13,7 +13,6 @@
     <TextView
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="时间段和复法你你你你"
         android:paddingRight="@dimen/mian_five_top"
         android:paddingLeft="@dimen/mian_five_top"
         android:id="@+id/dy_item_item_title"

@@ -14,7 +14,7 @@
     <LinearLayout
         android:id="@+id/music_video_layout"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="@dimen/dp_40"
         android:background="@android:color/background_light"
         android:orientation="horizontal"
         android:paddingLeft="@dimen/main_title_margS"
@@ -30,7 +30,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/main_ten"
             android:gravity="center"
-            android:paddingTop="3dp"
+            android:paddingTop="@dimen/dian_3dp"
             android:text="@string/list_text"
             android:textColor="@android:color/black"
             android:textSize="@dimen/main_title_S_margD"/>
@@ -40,7 +40,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/main_ten"
             android:gravity="center"
-            android:paddingTop="3dp"
+            android:paddingTop="@dimen/dian_3dp"
             android:src="@mipmap/bt_mv_pull_down_normal"/>
 
         <RelativeLayout
@@ -54,7 +54,7 @@
                 android:layout_marginRight="@dimen/main_ten"
                 android:layout_toLeftOf="@+id/tv"
                 android:gravity="center"
-                android:paddingTop="3dp"
+                android:paddingTop="@dimen/dian_3dp"
                 android:text="@string/music_play_list_new"
                 android:textColor="@color/colorLight_blue_X"/>
 
@@ -65,7 +65,7 @@
                 android:layout_marginRight="@dimen/main_ten"
                 android:layout_toLeftOf="@+id/music_video_new"
                 android:gravity="center"
-                android:paddingTop="3dp"
+                android:paddingTop="@dimen/dian_3dp"
                 android:text="|"/>
 
             <TextView
@@ -75,7 +75,7 @@
                 android:layout_alignParentRight="true"
                 android:gravity="center"
                 android:paddingRight="@dimen/main_title_margS"
-                android:paddingTop="3dp"
+                android:paddingTop="@dimen/dian_3dp"
                 android:text="@string/music_play_list_host"/>
         </RelativeLayout>
     </LinearLayout>

@@ -9,16 +9,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp">
+        android:layout_height="@dimen/dp_40">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="百度账号登入"
+            android:text="@string/baidu"
             android:textColor="@color/coloBGNormal"
-            android:textSize="18sp"/>
+            android:textSize="@dimen/dimen_18sp"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_marginLeft="@dimen/dp_18"
                 android:background="@null"
-                android:hint="密码"/>
+                android:hint="@string/str_tv_prosswoer"/>
 
         </RelativeLayout>
         <!--app:cardElevation="7dp"-->
@@ -95,8 +95,8 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/draw_F"
             android:layout_marginTop="@dimen/dp_22"
-            app:cardCornerRadius="3dp"
-            app:cardElevation="2dp">
+            app:cardCornerRadius="@dimen/dian_3dp"
+            app:cardElevation="@dimen/dian_2dp">
 
             <TextView
                 android:id="@+id/loin_aty_tv"
@@ -104,7 +104,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/loin_tv"
                 android:gravity="center"
-                android:text="登录"
+                android:text="@string/ste_tv_loin"
                 android:textColor="#81ffffff"/>
         </android.support.v7.widget.CardView>
 
@@ -134,12 +134,12 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:background="@drawable/aty_tv_loin"
-            android:textSize="18sp"
+            android:textSize="@dimen/dimen_18sp"
             android:textColor="#367cff"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="88dp"
-            android:text="立即注册"/>
+            android:layout_width="@dimen/dimen_1000dp"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dimen_88dp"
+            android:text="@string/str_tv_zhu"/>
 
     </LinearLayout>
 

@@ -30,18 +30,16 @@
 
             <RelativeLayout
                 android:id="@+id/pop_seek_rel"
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="@dimen/dp_18">
 
-                <ImageView
-
+                <CheckBox
+                    android:button="@drawable/like_pressed"
                     android:id="@+id/like_normal_new"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/bt_playpage_button_like_normal_new"/>
-
+                    />
                 <ImageView
                     android:id="@+id/download_normal_new"
                     android:layout_width="wrap_content"

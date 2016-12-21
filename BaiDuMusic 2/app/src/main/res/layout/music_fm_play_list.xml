@@ -4,7 +4,7 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="@dimen/main_title_margS"
                 android:paddingRight="@dimen/main_title_margS"
-                >
+    >
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/music_play_relv"
@@ -14,7 +14,7 @@
     <LinearLayout
         android:id="@+id/music_lis_layout"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="@dimen/dp_40"
         android:background="@android:color/background_light"
         android:orientation="horizontal"
         android:paddingLeft="@dimen/main_title_margS"
@@ -30,17 +30,17 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/main_ten"
             android:gravity="center"
-            android:paddingTop="3dp"
+            android:paddingTop="@dimen/dian_3dp"
             android:text="@string/list_text"
             android:textColor="@android:color/black"
             android:textSize="@dimen/main_title_S_margD"/>
 
         <ImageView
-            android:gravity="center"
-            android:paddingTop="3dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/main_ten"
+            android:gravity="center"
+            android:paddingTop="@dimen/dian_3dp"
             android:src="@mipmap/bt_mv_pull_down_normal"/>
 
         <RelativeLayout
@@ -48,37 +48,36 @@
             android:layout_height="match_parent">
 
             <TextView
-
                 android:id="@+id/play_list_host"
-                android:textColor="@color/colorLight_blue_X"
-               android:layout_centerVertical="true"
-                android:paddingTop="3dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
                 android:layout_marginRight="@dimen/main_ten"
                 android:layout_toLeftOf="@+id/tv"
-                android:text="@string/music_play_list_host"/>
+                android:paddingTop="@dimen/dian_3dp"
+                android:text="@string/music_play_list_host"
+                android:textColor="@color/colorLight_blue_X"/>
 
             <TextView
-                android:layout_centerVertical="true"
-                android:gravity="center"
-                android:paddingTop="3dp"
                 android:id="@+id/tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
                 android:layout_marginRight="@dimen/main_ten"
                 android:layout_toLeftOf="@+id/music_play_new"
+                android:gravity="center"
+                android:paddingTop="@dimen/dian_3dp"
                 android:text="|"/>
 
             <TextView
-                android:layout_centerVertical="true"
-                android:gravity="center"
-                android:paddingTop="3dp"
                 android:id="@+id/music_play_new"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
                 android:paddingRight="@dimen/main_title_margS"
+                android:paddingTop="@dimen/dian_3dp"
                 android:text="@string/music_play_list_new"/>
         </RelativeLayout>
     </LinearLayout>

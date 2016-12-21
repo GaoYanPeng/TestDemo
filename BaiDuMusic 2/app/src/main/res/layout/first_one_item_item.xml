@@ -10,7 +10,7 @@
 
         android:id="@+id/firs_one_item_pic"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="@dimen/dian_110dp"
         android:scaleType="fitXY"/>
 
     <TextView
@@ -19,7 +19,7 @@
         android:layout_below="@id/firs_one_item_pic"
         android:id="@+id/first_one_item_title"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="@dimen/dimen_30dp"
         android:layout_marginTop="@dimen/main_title_margM"
         android:textColor="@android:color/black"
         android:textSize="@dimen/main_title_margX"/>
@@ -31,7 +31,7 @@
         android:id="@+id/first_one_item_title_small"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="@dimen/dimen_4dp"
         android:textColor="@android:color/darker_gray"
         android:textSize="@dimen/main_title_margX"/>
 

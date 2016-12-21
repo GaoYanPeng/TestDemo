@@ -3,5 +3,20 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dian_100dp"
+        />
+    <Button
+        android:textColor="#657474"
+        android:background="@null"
+        android:id="@+id/pop_three_search_lrc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_share"/>
+    <com.gaoyanpeng.musicbaidu.activity.toolstow.lrc.LrcView
+        android:id="@+id/right_lrcView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

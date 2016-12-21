@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
+            android:orientation="vertical">
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+
+        android:src="@mipmap/dm_pic"
+        android:layout_width="match_parent"
+        android:layout_height="490dp"/>
+    <ImageView
+
+        android:src="@mipmap/dm_pic_one"
+        android:layout_width="match_parent"
+        android:layout_height="490dp"/>
+    <ImageView
+
+        android:src="@mipmap/dm_pic_tow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dian_375dp"/>
+    <ImageView
+        android:src="@mipmap/dm_pic_three"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dian_350dp"/>
 </LinearLayout>
+</ScrollView>

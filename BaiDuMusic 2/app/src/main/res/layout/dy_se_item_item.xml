@@ -12,8 +12,8 @@
 
         <ImageView
             android:id="@+id/dy_se_item_heard"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/dimen_30dp"
+            android:layout_height="@dimen/dimen_30dp"
             android:src="@mipmap/ic_classify_img07"/>
 
         <TextView
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/main_ten"
             android:layout_toRightOf="@id/dy_se_item_heard"
-            android:text="你试一哈阿克苏接电话卡"/>
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
             android:background="@android:color/holo_blue_light"
             android:paddingLeft="@dimen/mian_five_top"
             android:paddingRight="@dimen/mian_five_top"
-            android:text="推荐"
+            android:text="@string/str_tv_tuis"
             android:textColor="@android:color/white"/>
 
         <ImageView
@@ -51,8 +51,8 @@
             android:layout_below="@id/de_se_item_title_name"
             android:layout_marginLeft="@dimen/main_ten"
             android:layout_toRightOf="@id/dy_se_item_heard"
-            android:text="你试一哈阿克苏接电话卡"
-            android:textSize="@dimen/main_ten"/>
+
+            android:textSize="@dimen/small_text"/>
 
 
     </RelativeLayout>
@@ -66,7 +66,6 @@
         android:lineSpacingExtra="3dp"
         android:lineSpacingMultiplier="1.1"
         android:maxLines="5"
-        android:text=" 沃尔特Yui欧可能不v 是电风扇的放阿飞案说法让我让位沃尔特Yui欧可能不v 是电风扇的放阿飞案说法让我让位沃尔特Yui欧可能不v 是电风扇的放阿飞案说法让我让位"
         android:textColor="@color/coloBGNormal"/>
 
     <TextView

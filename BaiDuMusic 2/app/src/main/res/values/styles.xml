@@ -22,7 +22,6 @@
             @android:drawable/progress_indeterminate_horizontal
         </item>
         <item name="android:progressDrawable">@drawable/progressbar</item>
-
     </style>
 
 </resources>

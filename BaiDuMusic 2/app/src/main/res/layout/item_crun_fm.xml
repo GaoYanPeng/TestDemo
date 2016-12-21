@@ -15,13 +15,13 @@
             android:src="@mipmap/ic_classify_img07"
             android:id="@+id/cr_image_heard"
             android:scaleType="fitXY"
-            android:layout_width="65dp"
-            android:layout_height="60dp"/>
+            android:layout_width="@dimen/dian_65dp"
+            android:layout_height="@dimen/dian_60dp"/>
         <ImageView
             android:id="@+id/crun_image_on"
             android:src="@mipmap/img_king_mask1"
-            android:layout_width="35dp"
-            android:layout_height="35dp"/>
+            android:layout_width="@dimen/dian_35dp"
+            android:layout_height="@dimen/dian_35dp"/>
         <TextView
             android:id="@+id/crun_number_tv"
             android:layout_marginLeft="@dimen/cardview_default_radius"

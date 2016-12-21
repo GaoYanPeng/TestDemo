@@ -8,7 +8,7 @@
         android:visibility="gone"
         android:id="@+id/loin_layout_H"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/dian_80dp"
         android:background="@drawable/lisr_pressed"
         android:paddingRight="@dimen/dp_10">
 
@@ -19,15 +19,15 @@
 
             <ImageView
                 android:id="@+id/loin_heard_H"
-                android:layout_width="59dp"
-                android:layout_height="59dp"
+                android:layout_width="@dimen/dian_59dp"
+                android:layout_height="@dimen/dian_59dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:src="@mipmap/ktv_share_img_head"/>
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="59dp"
+                android:layout_height="@dimen/dian_59dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:src="@drawable/loin_shape"/>
@@ -64,7 +64,7 @@
     <RelativeLayout
         android:id="@+id/loin_layout"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/dian_80dp"
         android:background="@drawable/lisr_pressed"
         android:paddingRight="@dimen/dp_10">
 
@@ -75,15 +75,15 @@
 
             <ImageView
                 android:id="@+id/loin_heard"
-                android:layout_width="59dp"
-                android:layout_height="59dp"
+                android:layout_width="@dimen/dian_59dp"
+                android:layout_height="@dimen/dian_59dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:src="@mipmap/img_option_setting_user"/>
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="59dp"
+                android:layout_height="@dimen/dian_59dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:src="@drawable/loin_shape"/>

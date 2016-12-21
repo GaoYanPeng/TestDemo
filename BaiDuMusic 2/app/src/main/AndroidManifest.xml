@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.gaoyanpeng.baidumusic">
+          package="com.gaoyanpeng.musicbaidu">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -22,27 +22,27 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
-        android:name=".app.MyApplication"
+        android:name="com.gaoyanpeng.musicbaidu.app.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".welcome.WelcomeActivity">
+        <activity android:name="com.gaoyanpeng.musicbaidu.welcome.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity"/>
-        <activity android:name=".welcome.WEActivity"/>
-        <activity android:name=".music.musicfragment.video.VideoActivity"
+        <activity android:name="com.gaoyanpeng.musicbaidu.activity.MainActivity"/>
+        <activity android:name="com.gaoyanpeng.musicbaidu.welcome.WEActivity"/>
+        <activity android:name="com.gaoyanpeng.musicbaidu.music.musicfragment.video.VideoActivity"
                   android:screenOrientation="landscape"/>
 
-        <service android:name=".activity.MusucService"/>
-        <activity android:name=".welcome.WelcomeWbActivity"/>
-        <activity android:name=".loin.LoinActivity"/>
+        <service android:name="com.gaoyanpeng.musicbaidu.activity.MusucService"/>
+        <activity android:name="com.gaoyanpeng.musicbaidu.welcome.WelcomeWbActivity"/>
+        <activity android:name="com.gaoyanpeng.musicbaidu.loin.LoinActivity"/>
 
         <activity
             android:name="com.mob.tools.MobUIShell"

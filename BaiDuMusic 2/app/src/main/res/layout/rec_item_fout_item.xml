@@ -11,8 +11,8 @@
     <ImageView
         android:src="@mipmap/bt_minibar_next_normal"
         android:id="@+id/item_item_four_image"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp"
         android:layout_centerHorizontal="true"
         />
 
